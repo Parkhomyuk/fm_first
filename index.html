@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link href='https://fonts.googleapis.com/css?family=Hanken Grotesk' rel='stylesheet'>
+  <link rel="stylesheet"    href="style.css" />
+  
+  <title>Frontend Mentor | Results summary component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+   
+</head>
+<body>
+
+  <!-- Your Result
+  76
+  of 100
+
+  Great
+  You scored higher than 65% of the people who have taken these tests.
+  
+  Summary
+
+  Reaction
+  80 / 100
+
+  Memory
+  92 / 100
+
+  Verbal
+  61 / 100
+
+  Visual
+  72 / 100
+
+  Continue -->
+
+  <div class="wrapper">
+    <div class="main-content">
+      <div class="result-your">
+        <div class="your-title">Your Result</div>
+        <div class="your-score">
+          <div class="scrore-value">76</div>
+          <div class="scrore-extra">of 100</div>
+        </div>
+        <div class="your-opinion">Great</div>
+        <div class="your-description">You scored higher than 65% of the people who have taken     these tests</div>
+      </div>
+      <div class="summary">
+        <div class="summary-title">
+          Summary 
+        </div>
+        <div class="summary-results">
+          <div class="result reaction">
+            <div class="icon-title" id="Reaction">
+              <img src="" alt="reaction" id="Reaction-img">
+              <span>Reaction</span> 
+            </div>
+            <div class="value"id="Reaction-value" > </div>
+           
+          </div>
+          <div class="result memory" id="Memory">
+            <div class="icon-title">
+              <img src="" alt="memory" id="Memory-img">
+              <span>Memory</span> 
+            </div>
+            <div class="value" id="Memory-value">   </div>
+
+          </div>
+          <div class="result verbal" id="Verbal">
+            <div class="icon-title">
+              <img src="" alt="Verbal" id="Verbal-img">
+              <span>Verbal</span> 
+            </div>
+            <div class="value" id="Verbal-value">  </div>
+
+          </div>
+          <div class="result visual" id="Visual">
+            <div class="icon-title">
+              <img src="" alt="Visual" id="Visual-img">
+              <span>Visual</span> 
+            </div>
+            <div class="value" id="Visual-value"> </div>
+
+          </div>
+        </div>
+        <div class="summary-button">
+          <button class="btn-continue">Continue</button>
+        </div>
+      </div>
+    </div>
+  </div>  
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">@Parkhomyuk</a>.
+  </div>
+  <script src="main_script.js"></script>
+</body>
+</html>
