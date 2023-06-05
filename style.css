@@ -83,11 +83,11 @@ button{
     background: linear-gradient(to bottom  , var(--royl_blue-background-color),55%, hsla(241, 74%, 57%, 0.437) );
 }
 .result-your .your-opinion{
-    font-size: 32px;
+    font-size: 28px;
     font-weight: bold;
 }
 .result-your .your-description{
-    width: 75%;
+    width: 95%;
     height: 100px;
     color: var(--font_blue-color);  
 }
