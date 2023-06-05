@@ -32,7 +32,7 @@ button{
 .main-content{
     margin-top: 0px;
     margin-left:0px ;
-    width: 35vw;
+    width: 600px;
     height: 48vh;
     background-color: #ffffff37;
     /* border: 1px solid rgba(128, 128, 128, 0.571); */
@@ -99,7 +99,7 @@ button{
     color: var(--font_blue-color); 
 }
 .summary{    
-    width: 45%;
+    width: 55%;
     height: 95%;
     overflow: auto;
     border-top-right-radius: 35px;
@@ -120,12 +120,13 @@ button{
     margin-bottom: 30px;
     padding-top: 20px;
     text-align: center;
+    margin-left: 20px;
     /* background-color: antiquewhite; */
 }
  
 .summary .summary-results{
     height: 60%;
-    
+    margin-left: 20px;
     margin-bottom: 10px;
 }
 
@@ -196,11 +197,12 @@ button{
 }
 .summary-button{
     height:50px;
-    width: 100%;
+    width: auto;
+    margin-left: 20px;
 }
 .summary-button .btn-continue{
     height:100%;
-    width: 87%;
+    width: 250px;
     font-size: 16px;
     font-weight: bold; 
     border-radius: 50px;
@@ -381,38 +383,14 @@ button{
   }
   @media (min-width: 768px) and (max-width: 991px) {
     /* стили для sm-устройств   */
-    .main-content{
-        margin-top: 0px;
-        margin-left:0 ;
-        width: 100vw;
-        height: 100vh;
-        background-color: #c9484837;
-        /* border: 1px solid rgba(128, 128, 128, 0.571); */
-        border-radius: 45px;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: center;   
-        box-shadow: 1px 1px 35px 10px rgba(0, 0, 255, 0.045);
-    }
+     
   }
  @media (min-width: 991px) and (max-width: 1199px) {
   /* стили для md-устройств  */
-  .main-content{
-    margin-top: 0px;
-    margin-left:0 ;
-    width: 100vw;
-    height: 100vh;
-    background-color: #072f5f37;
-    /* border: 1px solid rgba(128, 128, 128, 0.571); */
-    border-radius: 45px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;   
-    box-shadow: 1px 1px 35px 10px rgba(0, 0, 255, 0.045);
+   
+    
 }
-  }
-  @media (min-width: 1200px) {
+  
+  /* @media (min-width: 1200px) {
     стили для lg-устройств  
-  } */
+  }  */
