@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  <link href='https://fonts.googleapis.com/css?family=Hanken Grotesk' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family="Hanken Grotesk"' rel='stylesheet'>
   <link rel="stylesheet"    href="style.css" />
   
   <title>Frontend Mentor | Results summary component</title>
@@ -43,7 +43,7 @@
       <div class="result-your">
         <div class="your-title">Your Result</div>
         <div class="your-score">
-          <div class="scrore-value">76</div>
+          <div class="scrore-value" id="score-value">76</div>
           <div class="scrore-extra">of 100</div>
         </div>
         <div class="your-opinion">Great</div>
@@ -59,7 +59,9 @@
               <img src="" alt="reaction" id="Reaction-img">
               <span>Reaction</span> 
             </div>
-            <div class="value"id="Reaction-value" > </div>
+            <div class="value"> 
+              <span id="Reaction-value"  class="value_result"></span><span>  / 100</span>
+            </div>
            
           </div>
           <div class="result memory" id="Memory">
@@ -67,7 +69,9 @@
               <img src="" alt="memory" id="Memory-img">
               <span>Memory</span> 
             </div>
-            <div class="value" id="Memory-value">   </div>
+            <div class="value" >
+              <span id="Memory-value"  class="value_result"></span><span>  / 100</span>  
+            </div>
 
           </div>
           <div class="result verbal" id="Verbal">
@@ -75,7 +79,7 @@
               <img src="" alt="Verbal" id="Verbal-img">
               <span>Verbal</span> 
             </div>
-            <div class="value" id="Verbal-value">  </div>
+            <div class="value" ><span id="Verbal-value" class="value_result"></span><span>  / 100</span>  </div>             
 
           </div>
           <div class="result visual" id="Visual">
@@ -83,7 +87,9 @@
               <img src="" alt="Visual" id="Visual-img">
               <span>Visual</span> 
             </div>
-            <div class="value" id="Visual-value"> </div>
+            <div class="value"  > 
+              <span id="Visual-value"  class="value_result"></span><span>  / 100</span>  
+            </div>
 
           </div>
         </div>
@@ -92,6 +98,7 @@
         </div>
       </div>
     </div>
+    
   </div>  
   
   <div class="attribution">
