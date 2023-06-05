@@ -204,7 +204,7 @@ button{
     font-size: 16px;
     font-weight: bold; 
     border-radius: 50px;
-    background: linear-gradient(to bottom right, var(--royl_blue-background-color), var(--state_blue-background-color));
+    background: linear-gradient(to bottom right,#000, #0000009d);
     /* background-color: var(--royl_blue-background-color); */
     color: #fff
 }
@@ -379,11 +379,39 @@ button{
         color: #fff
     }
   }
-  /* @media (min-width: 768px) and (max-width: 991px) {
-    стили для sm-устройств  
-  } */
-  /* @media (min-width: 991px) and (max-width: 1199px) {
-  стили для md-устройств 
+  @media (min-width: 768px) and (max-width: 991px) {
+    /* стили для sm-устройств   */
+    .main-content{
+        margin-top: 0px;
+        margin-left:0 ;
+        width: 100vw;
+        height: 100vh;
+        background-color: #c9484837;
+        /* border: 1px solid rgba(128, 128, 128, 0.571); */
+        border-radius: 45px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;   
+        box-shadow: 1px 1px 35px 10px rgba(0, 0, 255, 0.045);
+    }
+  }
+ @media (min-width: 991px) and (max-width: 1199px) {
+  /* стили для md-устройств  */
+  .main-content{
+    margin-top: 0px;
+    margin-left:0 ;
+    width: 100vw;
+    height: 100vh;
+    background-color: #072f5f37;
+    /* border: 1px solid rgba(128, 128, 128, 0.571); */
+    border-radius: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;   
+    box-shadow: 1px 1px 35px 10px rgba(0, 0, 255, 0.045);
+}
   }
   @media (min-width: 1200px) {
     стили для lg-устройств  
